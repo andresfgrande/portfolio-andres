@@ -6,8 +6,7 @@ export default function Hero({ scrollTo }) {
   const typed = useTypingEffect([
     "Senior Full Stack Developer",
     "Blockchain Engineer",
-    "Node & React Specialist",
-    "Decentralized Identity Builder",
+    "Node & NestJS & React Developer",
   ]);
 
   return (
@@ -128,7 +127,6 @@ export default function Hero({ scrollTo }) {
             { n: "7+", label: "Years Experience" },
             { n: "3", label: "Companies" },
             { n: "MSc", label: "Blockchain · UPC" },
-            { n: "C2", label: "English · EF SET" },
           ].map((s) => (
             <div key={s.label}>
               <div

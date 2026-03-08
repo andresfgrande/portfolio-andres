@@ -1,11 +1,9 @@
 export const NAV_LINKS = ["About", "Experience", "Projects", "Contact"];
 
 export const SKILLS = {
-  Frontend: ["React", "Vue.js", "TypeScript", "JavaScript", "jQuery"],
+  Frontend: ["React", "TypeScript", "NextJs", "Vue.js", "jQuery"],
   Backend: ["Node.js", "NestJS", "PHP", "Laravel", "PostgreSQL"],
-  Blockchain: ["Solidity", "Web3.js", "Cardano", "Chainlink", "OIDC4VP"],
-  DevOps: ["Azure Pipelines", "CI/CD", "TDD", "Agile", "REST APIs"],
-  Platforms: ["Magento 2", "ERP/CRM Integration", "Decentralized Identity", "W3C Standards"],
+  Blockchain: ["Solidity", "Web3.js", "Cardano", "Ethers.js"],
 };
 
 export const EXPERIENCE = [
@@ -15,7 +13,7 @@ export const EXPERIENCE = [
     period: "Oct 2025 – Present",
     location: "Barcelona · Hybrid",
     desc: "Working with TypeScript, Node.js and modern fullstack technologies in a hybrid setup.",
-    tags: ["TypeScript", "Node.js"],
+    tags: ["TypeScript", "Node.js", "NestJS", "React", "PostgreSQL", "Claude"],
     accent: "#00ff88",
     current: true,
   },
@@ -25,7 +23,7 @@ export const EXPERIENCE = [
     period: "Mar 2024 – Dec 2024",
     location: "Barcelona",
     desc: "Developed decentralized identity projects aligned with OIDC4CI, OIDC4VP, and W3C standards. Built APIs and React dashboards with NestJS and TypeScript. Implemented CI/CD via Azure Pipelines and applied TDD and agile methodologies.",
-    tags: ["TypeScript", "NestJS", "React", "Azure", "TDD", "W3C"],
+    tags: ["TypeScript", "NestJS", "React", "Azure", "TDD"],
     accent: "#a78bfa",
     current: false,
   },
@@ -50,22 +48,6 @@ export const PROJECTS = [
     accent: "#00ff88",
     badge: "🏆 Hackathon",
   },
-  {
-    title: "Decentralized Identity Platform",
-    subtitle: "Validated ID · Signaturit",
-    desc: "Production identity system implementing OIDC4CI, OIDC4VP, and W3C standards. Includes API services and React dashboards used to demonstrate SSI (Self-Sovereign Identity) use cases to enterprise clients.",
-    tags: ["TypeScript", "NestJS", "React", "OIDC4VP", "W3C"],
-    accent: "#a78bfa",
-    badge: "Production",
-  },
-  {
-    title: "Custom E-Commerce Ecosystem",
-    subtitle: "We're Sinapsis",
-    desc: "Suite of Magento 2 projects with custom modules extending business logic and UI. Integrated ERP and CRM systems via APIs to automate catalog, stock, and customer data flows across multiple clients.",
-    tags: ["Magento 2", "Laravel", "PHP", "ERP", "Node.js"],
-    accent: "#ff6b35",
-    badge: "Multi-client",
-  },
 ];
 
 export const EDUCATION = [
@@ -82,12 +64,12 @@ export const EDUCATION = [
 ];
 
 export const CERTS = [
+  { name: "AWS Certified Cloud Practitioner", issuer: "Amazon Web Services", date: "Jul 2023" },
   { name: "Cardano Blockchain Certified Associate (CBCA)", issuer: "Cardano Foundation", date: "Jul 2025" },
-  { name: "EF SET English Certificate C2 Proficient", issuer: "EF SET", date: "Mar 2025" },
 ];
 
 export const SOCIAL = [
   { label: "LinkedIn", href: "https://www.linkedin.com/in/andres-grande/", icon: "in" },
   { label: "GitHub", href: "https://github.com/andres-grande", icon: "gh" },
-  { label: "Email", href: "mailto:hello@andresgrande.dev", icon: "@" },
+  { label: "Email", href: "mailto:andresfernando.grande@gmail.com", icon: "@" },
 ];
