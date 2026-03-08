@@ -85,13 +85,13 @@ export default function Contact() {
             className="mono"
             style={{ fontSize: "0.75rem", color: "#334155" }}
           >
-            © 2026 Andrés Grande Núñez
+            © 2026 Andrés Grande
           </span>
           <span
             className="mono"
             style={{ fontSize: "0.72rem", color: "#334155" }}
           >
-            Barcelona, Spain · Open to opportunities
+            Barcelona, Spain
           </span>
         </div>
       </div>
